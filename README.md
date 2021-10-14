@@ -1,1 +1,1 @@
-# networking-tech
+# Computer networking technology
