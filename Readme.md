@@ -7,3 +7,5 @@ We will use fixer API to get the live conversion rates and convert the correspon
 
 resolve 
 bon a a emrmr
+
+We will use fixer API to get the live conversion rates and convert the corresponding amount.
