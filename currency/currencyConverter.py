@@ -30,8 +30,10 @@ if __name__ == "__main__":
     YOUR_ACCESS_KEY = 'd6b399c7897e6895310c3ee916fc6635'
     url = str.__add__('http://data.fixer.io/api/latest?access_key=', YOUR_ACCESS_KEY)
     c = Currency_convertor(url)
-    from_country = input("From Country: ")
-    to_country = input("TO Country: ")
-    amount = int(input("Amount: "))
 
-    c.convert(from_country, to_country, amount)
+    while True:
+        from_country = input("From Country: ")
+        to_country = input("TO Country: ")
+        amount = int(input("Amount: "))
+
+        c.convert(from_country, to_country, amount)
